@@ -4,12 +4,16 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
 const RESOURCES = {"flutter.js": "7d69e653079438abfbb24b82a655b0a4",
-"main.dart.js": "be8c4705e37b1135d26dc1d0f4ee29f9",
+"main.dart.js": "7e6c75ec8696be810aaac02b2bbe2773",
 "version.json": "81a1d187329804c2f838ed2cc0b83cd9",
-"assets/AssetManifest.bin.json": "69a99f98c8b1fb8111c5fb961769fcd8",
+"assets/AssetManifest.bin.json": "fce4f318909ee5fab3a1d7304b719fbd",
+"assets/assets/cns.png": "986f3d36fa8d0936551d5fd32baeb3d4",
+"assets/assets/lungs.png": "70e3d46073609a815efbd66b4f2d9f9e",
+"assets/assets/udiaphragm.png": "3fa45b0c782e64bd7e7bff072686ff6e",
+"assets/assets/ldiaphragm.png": "f3c831f7e272f7bba3d9f0579ab647e1",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "89ed8f4e49bcdfc0b5bfc9b24591e347",
-"assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
-"assets/AssetManifest.bin": "693635b5258fe5f1cda720cf224f158c",
+"assets/AssetManifest.json": "48474f7eab96cc3be6a2b6eed868f794",
+"assets/AssetManifest.bin": "1c65279277fffdb0950a8c7846711148",
 "assets/shaders/ink_sparkle.frag": "4096b5150bac93c41cbc9b45276bd90f",
 "assets/NOTICES": "7861d1c8d89b2e92d922d4b525d2afe6",
 "assets/fonts/MaterialIcons-Regular.otf": "fcf030a8cb1288f91007c73608f6f93e",
@@ -26,8 +30,8 @@ const RESOURCES = {"flutter.js": "7d69e653079438abfbb24b82a655b0a4",
 "canvaskit/chromium/canvaskit.js": "0ae8bbcc58155679458a0f7a00f66873",
 "canvaskit/canvaskit.wasm": "73584c1a3367e3eaf757647a8f5c5989",
 "canvaskit/canvaskit.js": "eb8797020acdbdf96a12fb0405582c1b",
-"index.html": "248e0402e31fbedc8f2bcb3092e9346e",
-"/": "248e0402e31fbedc8f2bcb3092e9346e",
+"index.html": "d60abd640b3a014506257950aa86e7f3",
+"/": "d60abd640b3a014506257950aa86e7f3",
 "manifest.json": "5861b8ec718916897909ff31e49536b8"};
 // The application shell files that are downloaded before a service worker can
 // start.
