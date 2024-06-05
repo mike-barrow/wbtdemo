@@ -36914,11 +36914,13 @@ a2=a1?1:0
 a3=r+p+n+d+b+a0+a2>0&&!0?1:0
 a4=e===3&&!0
 if(f===3)a4=!0
-if(a1||a){if(i===2)a4=!0
+r=!a1
+if(!r||a){if(i===2)a4=!0
 if(g===2)a4=!0
 if(h===2)a4=!0
 if(j===2)a4=!0}if(a4)a3=2
 a5=a&&a1&&!0
+if(c)a5=!0
 if(a&&m?!0:a5)a3=3
 if(i>2){A.bf("liver: "+l.j(0))
 l.w="E"
@@ -36936,10 +36938,12 @@ if(i===2)++a7
 if(g===2)++a7
 A.bf("Diffuse extra lymphatic: "+a7)
 if(a7>1)a6=!0
-r=!s
-if((!r||q||o||c||m)&&a1&&a){A.bf("lesions above + below + cns involvement")
+p=!s
+if(!p||q||o||m)r=!r||a
+else r=!1
+if(r){A.bf("lesions above + below + cns involvement")
 a6=!0}a8.d=a6?4:a3
-if(!r||q||o||m||!1){l.w+="E"
+if(!p||q||o||m||!1){l.w+="E"
 A.bf("extra lymphatic involvement")}if(c){l.w+="S"
 A.bf("spleen involvement")}if(a8.d>0){if(!(a8.at&&s))if(!(a8.ax&&q))if(!(a8.ay&&c))if(!(a8.ch&&m))if(!(a8.CW&&a))if(!(a8.cx&&a))s=a8.cy&&o
 else s=!0
