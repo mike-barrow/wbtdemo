@@ -36862,46 +36862,37 @@ a2=a1?1:0
 a3=r+p+n+d+b+a0+a2>0&&!0?1:0
 a4=e===3&&!0
 if(f===3)a4=!0
-r=!a1
-if(!r||a){if(i===2)a4=!0
+if(a1||a){if(i===2)a4=!0
 if(g===2)a4=!0
 if(h===2)a4=!0
 if(j===2)a4=!0}if(a4)a3=2
 a5=a&&a1&&!0
-if(c)a5=!0
 if(a&&m?!0:a5)a3=3
 if(i>2){A.bX("liver: "+l.i(0))
-l.w="E"
 a6=!0}else a6=!1
 if(g>2){A.bX("marrow: "+l.i(0))
-l.w="E"
 a6=!0}if(h>2){A.bX("lungs: "+l.i(0))
-l.w="E"
 a6=!0}if(j>2){A.bX("CNS: "+l.i(0))
-l.w="E"
 a6=!0}a7=j===2?1:0
 if(h===2)++a7
-if(k===2)++a7
 if(i===2)++a7
 if(g===2)++a7
 A.bX("Diffuse extra lymphatic: "+a7)
-if(a7>1)a6=!0
-p=!s
-if(!p||q||o||m)r=!r||a
-else r=!1
-if(r){A.bX("lesions above + below + cns involvement")
-a6=!0}a8.dx=a6?4:a3
-if(!p||q||o||m||!1){r=l.w
+if(a7>1?!0:a6)a3=4
+a8.dx=a3
+if(a3<4){if(s||q||o||m||!1){r=l.w
 if(r!=="E")l.w=r+"E"
 A.bX("extra lymphatic involvement")}if(c){l.w+="S"
-A.bX("spleen involvement")}if(a8.dx>0){if(!(a8.ax&&s))if(!(a8.ay&&q))if(!(a8.ch&&c))if(!(a8.CW&&m))if(!(a8.cx&&a))if(!(a8.cy&&a1))s=a8.db&&o
+A.bX("spleen involvement")}}else A.bX("no letter code is reported for stabe iv")
+r=a8.dx
+if(r>0&&r<4){if(!(a8.ax&&s))if(!(a8.ay&&q))if(!(a8.ch&&c))if(!(a8.CW&&m))if(!(a8.cx&&a))if(!(a8.cy&&a1))s=a8.db&&o
 else s=!0
 else s=!0
 else s=!0
 else s=!0
 else s=!0
 else s=!0
-if(s){l.w+="B"
+if(s){l.w+="X"
 A.bX("Bulky disease")}}a8.dy=l.w},
 $S:0}
 A.a4i.prototype={
