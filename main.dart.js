@@ -36867,7 +36867,9 @@ if(g===2)a4=!0
 if(h===2)a4=!0
 if(j===2)a4=!0}if(a4)a3=2
 a5=a&&a1&&!0
-if(a&&m?!0:a5)a3=3
+if(a&&m)a5=!0
+if(a&&c)a5=!0
+if(a1&&q?!0:a5)a3=3
 if(i>2){A.bX("liver: "+l.i(0))
 a6=!0}else a6=!1
 if(g>2){A.bX("marrow: "+l.i(0))
