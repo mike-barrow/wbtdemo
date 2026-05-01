@@ -36872,7 +36872,7 @@ if(a&&c)a5=!0
 if(a1&&q?!0:a5)a3=3
 if(i>2){A.bX("liver: "+l.i(0))
 a6=!0}else a6=!1
-if(g>2){A.bX("marrow: "+l.i(0))
+if(g>=2){A.bX("marrow: "+l.i(0))
 a6=!0}if(h>2){A.bX("lungs: "+l.i(0))
 a6=!0}if(j>2){A.bX("CNS: "+l.i(0))
 a6=!0}a7=j===2?1:0
@@ -36932,7 +36932,7 @@ case 4:s="Lungs / Pleura Lesions"
 break
 case 5:s="Liver Lesions"
 break
-case 6:s="Bone Lesions"
+case 6:s="Bone and/or bone marrow lesions"
 break
 default:s="Item "+b}else if(m===1)s="None"
 else if(m===2)s="Single nodal station"
